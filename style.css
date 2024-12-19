@@ -1,0 +1,128 @@
+/* Основные стили для всего сайта */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Раздел 10 причин */
+.intro {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff7f50;
+}
+
+.intro ul {
+    list-style: none;
+    padding: 0;
+}
+
+.intro li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Раздел с галереей */
+.gallery {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff7f50;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Раздел с тестом */
+.quiz {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.quiz h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff7f50;
+}
+
+.quiz button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz button:hover {
+    background-color: #e0673f;
+}
+
+/* Подвал */
+footer {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
